@@ -1,0 +1,4 @@
+While the array is not sorted
+   For each adjacent triple of elements starting at 0, 2, 4, 6, ...
+      Sort the triple
+      

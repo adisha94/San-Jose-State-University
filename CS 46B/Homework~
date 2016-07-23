@@ -1,0 +1,10 @@
+#!/bin/bash
+# Zip up homework source, HTMl, images
+jar -cvf $1.zip *.java  *.pdf  *.html *.png
+if [ -z $1 ]
+then
+    echo "Error, no argument was supplied. Ending program"
+    exit
+    fi
+javadoc *.java
+rm *.html
