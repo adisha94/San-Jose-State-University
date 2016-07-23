@@ -1,0 +1,6 @@
+# CS146
+This is a repository is meant to store homework assignments for CS 146 in San Jose State University. You the viewer are encouraged to use this repository for your own purposes or whatever. Homework will be updated in this repository and will be used to help with cope with the new things here. Unless you are a part of the group writing these assignments, you are not allowed to copy and paste the code directly from the repository or harsh action will be taken to the proper authorities.
+
+The first Midterm has been assigned and the document is available on GitHub right now. If you want to look at the test paper. You may do see for yourself in the repository documents. The midterm is due next monday so get working on it. You will have to read the book yourself before taking any further action on the test. Please also work with the group members so that we can finish this test with flying colors.
+
+As usual, when you are finished with one homework component, copy/paste it into the group folder to keep in sync with the group. Use that as last resort incase any strange things happen.
