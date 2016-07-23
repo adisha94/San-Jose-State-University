@@ -1,0 +1,14 @@
+search()
+-get the list
+
+-boolean or Anytype
+
+/**
+*
+*
+* @return int 
+int search(Anytype item)
+{
+	Contains(Anytype item);
+	// need to come up with something else for this one
+}
