@@ -1,0 +1,14 @@
+13:31:55 **** Incremental Build of configuration Debug for project Structure_traininig ****
+make all 
+Building target: Structure_traininig
+Invoking: MacOS X C++ Linker
+g++  -o "Structure_traininig"  ./Other\ Training/Main.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Structure_traininig] Error 1
+
+13:31:55 Build Finished (took 56ms)
+

@@ -1,0 +1,15 @@
+02:55:16 **** Incremental Build of configuration Debug for project IoTest ****
+make all 
+Building file: ../src/IoTest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/IoTest.d" -MT"src/IoTest.d" -o "src/IoTest.o" "../src/IoTest.cpp"
+Finished building: ../src/IoTest.cpp
+ 
+Building target: IoTest
+Invoking: MacOS X C++ Linker
+g++  -o "IoTest"  ./src/IoTest.o   
+Finished building target: IoTest
+ 
+
+02:55:16 Build Finished (took 363ms)
+

@@ -1,0 +1,14 @@
+00:15:35 **** Incremental Build of configuration Debug for project Further_Study ****
+make all 
+Building target: Further_Study
+Invoking: MacOS X C++ Linker
+g++  -o "Further_Study"  ./src/Further_Study.o   
+Undefined symbols for architecture x86_64:
+  "RequestInfo(Student)", referenced from:
+      _main in Further_Study.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Further_Study] Error 1
+
+00:15:35 Build Finished (took 212ms)
+

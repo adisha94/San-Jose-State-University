@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F61677F-B2BD-44B2-B0B8-9B35AD0E8B01</string>
+	<key>IDESourceControlProjectName</key>
+	<string>C++_Central</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F9CB90549F0E11712A7F73397B64EE85F355F84F</key>
+		<string>https://github.com/adisha94/CMPE-50-labs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C++_Central.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F9CB90549F0E11712A7F73397B64EE85F355F84F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/adisha94/CMPE-50-labs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F9CB90549F0E11712A7F73397B64EE85F355F84F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9CB90549F0E11712A7F73397B64EE85F355F84F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CMPE-50-labs</string>
+		</dict>
+	</array>
+</dict>
+</plist>

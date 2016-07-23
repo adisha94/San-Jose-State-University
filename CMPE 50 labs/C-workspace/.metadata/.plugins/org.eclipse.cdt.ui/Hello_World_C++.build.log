@@ -1,0 +1,13 @@
+22:47:52 **** Incremental Build of configuration Debug for project Hello_World_C++ ****
+make all 
+Building file: ../Password.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Password.d" -MT"Password.d" -o "Password.o" "../Password.cpp"
+../Password.cpp:48:29: error: type 'Student' does not provide a subscript operator
+        scanf("%s", &genericStudent[0].name);
+                     ~~~~~~~~~~~~~~^~
+1 error generated.
+make: *** [Password.o] Error 1
+
+22:47:52 Build Finished (took 463ms)
+

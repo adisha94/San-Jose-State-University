@@ -1,0 +1,21 @@
+Mathematical Algorthitmic Mindset
+  - n. A mindset that allows the programmer to tackle every problem with a basic mathematical understandinh of logical and contextual parameters.
+
+Object Oriented Programming
+
+  SOLID (S-O-L-I-D)
+  - Singleton
+  - Objectization
+  - Inheritance
+  - Polymorphism
+  - Abstraction
+  - Encapsulation
+  
+  SOLID
+  (
+    - Single responsibility,
+    - Open-closed
+    - Liskov substitution
+    - Interface segregation
+    - Dependency inversion
+  )

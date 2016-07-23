@@ -1,0 +1,28 @@
+12:48:08 **** Incremental Build of configuration Debug for project Pointer_training ****
+make all 
+Building file: ../src/Pointer_training.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer_training.d" -MT"src/Pointer_training.d" -o "src/Pointer_training.o" "../src/Pointer_training.cpp"
+../src/Pointer_training.cpp:43:59: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("Average of array_a: %i\nAverage of array_b: %i", array_a, array_b);
+                                    ~~                           ^~~~~~~
+../src/Pointer_training.cpp:43:68: warning: format specifies type 'int' but the argument has type 'int *' [-Wformat]
+        printf("Average of array_a: %i\nAverage of array_b: %i", array_a, array_b);
+                                                            ~~            ^~~~~~~
+../src/Pointer_training.cpp:41:6: warning: unused variable 'avg_b' [-Wunused-variable]
+        int avg_b = average(array_b, 10);
+            ^
+../src/Pointer_training.cpp:40:6: warning: unused variable 'avg_a' [-Wunused-variable]
+        int avg_a = average(array_a, 3);
+            ^
+4 warnings generated.
+Finished building: ../src/Pointer_training.cpp
+ 
+Building target: Pointer_training
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer_training"  ./src/Pointer_training.o   
+Finished building target: Pointer_training
+ 
+
+12:48:08 Build Finished (took 316ms)
+

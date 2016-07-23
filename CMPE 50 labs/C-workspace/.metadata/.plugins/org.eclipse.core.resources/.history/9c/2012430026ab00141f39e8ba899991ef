@@ -1,0 +1,33 @@
+/*
+ * Lab_2.cpp
+ *
+ *  Created on: Feb 2, 2015
+ *      Author: Adish Betawar
+ */
+
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+
+/*
+ * Excercise one
+ * 	function Overriding
+ */
+void Add(int type1, int type2);
+
+
+
+
+int main()
+{
+	return 0;
+}
+
+
+void Add(int type1, int type2)
+{
+	int sum =  type1 + type2;
+
+	return sum;
+}

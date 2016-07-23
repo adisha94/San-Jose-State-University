@@ -1,0 +1,15 @@
+22:37:28 **** Incremental Build of configuration Debug for project Other_Training ****
+make all 
+Building file: ../src/Other_Training.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Other_Training.d" -MT"src/Other_Training.d" -o "src/Other_Training.o" "../src/Other_Training.cpp"
+Finished building: ../src/Other_Training.cpp
+ 
+Building target: Other_Training
+Invoking: MacOS X C++ Linker
+g++  -o "Other_Training"  ./src/Other_Training.o   
+Finished building target: Other_Training
+ 
+
+22:37:29 Build Finished (took 321ms)
+

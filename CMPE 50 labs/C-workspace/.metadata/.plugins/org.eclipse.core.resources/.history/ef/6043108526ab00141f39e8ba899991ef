@@ -1,0 +1,33 @@
+/*
+ * Lab_2.cpp
+ *
+ *  Created on: Feb 2, 2015
+ *      Author: Adish Betawar
+ */
+
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+
+/*
+ * Excercise one
+ * 	function Overriding
+ */
+void Add(int type1, int type2);
+
+
+
+
+int main(void)
+{
+
+	cout << "What would you like to print out?" << endl << "\t1. integer\n\t2. double \t\n3. float\n\t4. Strings (character arrays)";
+	return 0;
+}
+
+
+void  Add(int type1, int type2)
+{
+	cout << "You have entered two integers which are: " << type1 << " and" << type2;
+}
