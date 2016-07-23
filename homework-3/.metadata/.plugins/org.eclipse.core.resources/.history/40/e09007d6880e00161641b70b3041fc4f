@@ -1,0 +1,75 @@
+import static org.junit.Assert.*;
+import java.util.*;
+import org.junit.Test;
+
+public class EmployeeTest 
+{
+
+//	HashSet myMap = new HashSet<Employee>(); 
+	@Test
+	public void test() 
+	{		
+
+	SeperateChainHashMap<Employee> map = new SeperateChainHashMap<>();
+		map.insert(new Employee("Adish"));
+		map.insert(new Employee("Hammad"));
+		map.insert(new Employee("Tuan"));
+		map.insert(new Employee("Kevin"));
+		map.insert(new Employee("Bob"));
+		map.PrintMap();
+		System.out.println();
+		System.out.println();
+		
+		map.PrintMap();
+		System.out.println();
+		System.out.println();
+		
+		
+				
+//		HashSet<Employee> myListHash = new HashSet<Employee>();		
+//		myListHash.add(new Employee("Adish"));
+//		myListHash.add(new Employee("Hammad"));
+//		myListHash.add(new Employee("Tuan"));
+//		myListHash.add(new Employee("Kevin"));
+//		myListHash.add(new Employee("Bob"));
+//		PrintMapHash(myListHash);
+	}
+
+	
+//	public void PrintMap(TreeSet<Employee> list)
+//	{
+//		for(Employee temp: list)
+//		{
+//			System.out.println("Employee name:  " + temp.getName());
+//		}
+//		
+//		System.out.println();
+//		System.out.println();
+//	}
+//	
+	
+	public void PrintMapHash(HashSet<Employee> list)
+	{
+		for(Employee temp: list)
+		{
+			System.out.println("Employee name:  " + temp.getName());
+		}
+		
+		System.out.println();
+		System.out.println();
+	}
+
+
+
+//	public void PrintSeperateMapHash(SeperateChainHashMap<Employee> list)
+//	{
+//		for(Employee temp: list)
+//		{
+//			System.out.println("Employee name:  " + temp.getName());
+//		}
+//		
+//		System.out.println();
+//		System.out.println();
+//	}
+
+}

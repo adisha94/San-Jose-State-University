@@ -1,0 +1,44 @@
+
+public class Employee extends SeperateChainHashMap
+{
+	String name;
+	private double salary;
+	private int seniority;
+	private int employee_hash;
+
+	public Employee(String person)
+	{
+		this.name = person;
+		seniority = 1;
+		employee_hash = -1; // still need to calculate the hash code
+	}
+	
+	
+	public Employee()
+	{
+		name = "";
+		salary = 0.00;
+		seniority = 1;
+		employee_hash = -1; // differentiating if we calculated hash or not
+	}
+	
+	public boolean equals(Employee rhs)
+	{
+		//  cache of local hash object 
+		return (hashCode() == rhs.hashCode())
+	}
+	
+	/**
+	 * Each object has its own hashValue
+	 * for first time, compute normally, for everytime after,
+	 * 		check to make sure the hashcodes are not the same for the newly constructed objects in the hash table 
+	 */
+	public int hashCode()
+	{
+		// first time
+		if (employee_hash == -1)
+			employee_hash = name.hashCode();
+		return employee_hash;
+	}
+	
+}

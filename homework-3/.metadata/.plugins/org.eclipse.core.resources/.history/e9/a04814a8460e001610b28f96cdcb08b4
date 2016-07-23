@@ -1,0 +1,28 @@
+
+public class Employee extends SeperateChainHashMap
+{
+	String name;
+	private double salary;
+	private int seniority;
+	private int employee_hash;
+
+	public Employee(String person)
+	{
+		this.name = person;
+		private int = 1;
+	}
+	public boolean equals(Object rhs)
+	{
+		return rhs instanceOf Employee && name.equals((Employee)rhs.name);
+	}
+	
+	/**
+	 * Each object has its own hashValue
+	 */
+	public int hashCode1()
+	{
+		employee_hash = name.hashCode();
+		return employee_hash;
+	}
+	
+}

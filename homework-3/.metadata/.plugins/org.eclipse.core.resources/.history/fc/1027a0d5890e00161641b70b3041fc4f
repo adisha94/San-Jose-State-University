@@ -1,0 +1,28 @@
+import static org.junit.Assert.*;
+import java.util.*;
+import org.junit.Test;
+
+public class EmployeeTest 
+{
+	@Test
+	public void test() 
+	{		
+
+	SeperateChainHashMap<Employee> map = new SeperateChainHashMap<>();
+	// insserting into table
+		map.insert(new Employee("Adish"));
+		map.insert(new Employee("Hammad"));
+		map.insert(new Employee("Tuan"));
+		map.insert(new Employee("Kevin"));
+		map.insert(new Employee("Bob"));
+		map.PrintMap();
+		System.out.println();
+		System.out.println();
+		
+		map.rehash();
+		map.PrintMap();
+		System.out.println();
+		System.out.println();		
+	}	
+
+}
